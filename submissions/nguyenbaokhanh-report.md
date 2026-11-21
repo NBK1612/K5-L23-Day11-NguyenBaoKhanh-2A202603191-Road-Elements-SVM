@@ -34,7 +34,7 @@ Cách đặt tag ảnh trên bản CVAT này: chọn công cụ **Tag** ở than
 | A11 | tag `timeofday` | dusk hay night | night | Trời đã tối, đèn đường, đèn xe và biển hiệu đều bật |
 
 ## 4. Phiếu QC 1 nhận được
-Bạn kiểm lô của tôi: không có (lab làm cá nhân, không được ghép cặp); thay bằng phiếu tự kiểm `nguyenbaokhanh-qc1-for-nguyenbaokhanh.md`  Quyết định nhận được: **Rework** (0 lỗi nặng, 23 lỗi chính / 112 nhãn = 20,5 % > 5 %). Đã sửa và nộp lại revision 2; bản revision 1 giữ trong `r1/`.  
+Bạn kiểm lô của tôi: chưa nhận phiếu (tôi kiểm lô của Nguyễn Xuân Anh: `nguyenbaokhanh-qc1-for-nguyenxuananh.md`). Trước khi đổi lô, tôi tự kiểm revision 1 theo đúng Phiếu QC 1 (6 ảnh A01, A04, A07, A11, B02, B03)  Quyết định của phiếu tự kiểm: **Rework** (0 lỗi nặng, 23 lỗi chính / 112 nhãn = 20,5 % > 5 %). Đã sửa và nộp lại revision 2; bản revision 1 giữ trong `r1/`. Bảng dưới là các lỗi của phiếu tự kiểm.  
 | Mã lỗi | Số lỗi | Đồng ý? | Đã sửa? |
 | --- | ---: | --- | --- |
 | QC1-05 (polyline trùng; vạch vàng đôi vẽ thành hai đường) | 7 | Đồng ý 4 (polyline trùng hệt ở A01, A11); không đồng ý 3 (A01 L2, vàng đôi A04, A11: hai polyline cho hai nét của vạch đôi) | Đã xóa 4 polyline trùng; giữ hai nét vạch đôi |
